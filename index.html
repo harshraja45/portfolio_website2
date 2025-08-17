@@ -1,108 +1,201 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Parallax Portfolio</title>
-  <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Harsh_Portfolio Website - </title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <div id="wrapper">
+    
+    <div id="wrapper">
 
-    <!-- Navbar -->
-    <div class="container navbar">
-      <div class="logo-container">
-        <img src="navicon/navlogo.png" alt="Logo" class="logo">
-        <div class="logo-text">Hashu</div>
-      </div>
-      <div class="nav-items">
-        <div><a href="#home">Home</a></div>
-        <div><a href="#projects">Projects</a></div>
-        <div><a href="#skills">Skills</a></div>
-        <div><a href="#contact">Contact</a></div>
-      </div>
+        <div class="container">
+            <div class="navbar">
+                
+                <div class="logo-container">
+                    <img src="navicon/hlogo.webp" class="logo"> <!-- navlogo -->
+                    <div class="logo-text">arsh Raja</div>
+                </div>
+                
+                <div class="nav-items">
+                    <div><a href="#projects"></a> <a href="https://www.facebook.com"></a>project</div>
+                    <div><a href="#skills">Skills</a></div>
+                    <div><a href="#contactme">Contact Me</a></div>
+                </div>
+
+            </div>
+
+            <div class="hero-section">
+
+                <div class="faded-text">Harsh Raja</div>
+    
+                <div class="hero-section-left">
+                    <div class="hero-section-heading">Hi ! Harsh Raja</div>
+                    
+                    <div class="hero-section-heading hero-section-sub-heading">
+                        I am a <span class="role"></span>
+                    </div>
+    
+                    <div class="hero-section-description">
+                        I’m a software developer and here is my portfolio website. Here you’ll
+                        learn about my journey as a software developer.
+                    </div>
+                    
+                    <div class="btn-pink" id="btn">Hire me</div>
+    
+                </div>
+    
+                <div class="hero-section-right">
+                    <div class="absolute icons icon-dots">
+                        <img src="icons/dots.png" alt="">
+                      </div>
+                      <div class="absolute icons icon-cube">
+                      <img src="icons/cube.png" alt="">
+                      </div>
+                      <div class="absolute icons icon-circle">
+                      <img src="icons/circle.png" alt="">
+                      </div>
+                      <div class="absolute icons icon-zigzag">
+                    <img src="icons/zigzags.png" alt="">
+                      </div>
+                      <div class="absolute icons icon-plus">
+                      <img src="icons/plus.png" alt="">
+                      </div>
+                      <div class="user-image">
+                        <img src="icons/unnamed.jpg" alt="">
+                      </div>
+                </div>
+    
+            </div>
+        </div>
+
+        <div class="project-section">
+            <h2 class="page-header">Projects</h2>
+
+            <div class="project-container">
+      
+                <div class="project-card" id="project1">
+                    <div class="project-number project-number-right">01</div>
+                    <div class="project-content project-content-left">
+
+                        <div class="project-skills-container">
+                            <img class="project-skill" src="icons/HTML.png" alt="">
+                            <img class="project-skill" src="icons/CSS.png" alt="">
+                            <img class="project-skill" src="icons/javascriptt.png" alt="">
+                            <img class="project-skill" src="icons/Express.png" alt="">
+                            <img class="project-skill" src="icons/NextJsCircle.png" alt="">
+                            <img class="project-skill" src="icons/Tailwind.png" alt="">
+                            <img class="project-skill" src="icons/NodeJs.svg" alt="" />
+                            <img class="project-skill" src="icons/MongoDB.svg" alt="" />
+                            <img class="project-skill" src="icons/Redux.svg" alt="" />
+                            <img class="project-skill" src="icons/Vercel.svg" alt="" />
+                        </div>
+
+                        <h2 class="project-heading">Tint & Orange</h2>
+
+                        <p class="project-subHeading">Its is a car modification copany 
+                            which provide you sheets to protect your car from scratch
+                        </p>
+                        <div class="btn-grp">
+                            <button class="btn-pink btn-project">Read More</button>
+                            <a href="">
+                            <i title="GitHubLink" class="fa-brands fa-github icon"></i>
+                            </a>
+                            <a href="">
+                            <i title="Live Link" class="fa-solid fa-link icon"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card" id="project2">
+                  <div class="project-number project-number-left">02</div>
+                  <div class="project-content project-content-right">
+                    <div class="project-skill-container">
+                      <img class="project-skill" src="icons/HTML.png" alt="" />
+                      <img class="project-skill" src="icons/CSS.png" alt="" />
+                      <img class="project-skill" src="icons/Javascript.svg" alt="" />
+                      <img class="project-skill" src="icons/NextJsCircle.png" alt="" />
+                      <img class="project-skill" src="icons/Tailwind.png" alt="" />
+                      <img class="project-skill" src="icons/Redux.svg" alt="" />
+                      <img class="project-skill" src="icons/Vercel.svg" alt="" />
+                    </div>
+                    <h2 class="project-heading">Breaking Copyrights</h2>
+                    <p class="project-sub-heading">
+                      A platform to download copyrights free youtube music
+                    </p>
+                    <div class="btn-group">
+                      <button class="btn-pink btn-project">Read More</button>
+                      <a href="">
+                        <i title="GitHubLink" class="fa-brands fa-github icon"></i>
+                      </a>
+                      <a href="">
+                        <i title="Live Link" class="fa-solid fa-link icon"></i>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+          
+                <!-- Project 3 & 4 ke bhi images same tarah se "icons/" folder ke path se daalne hain -->
+            </div>
+
+        </div>
+        
+        <div id="skills" class="container skills-container ">
+          <div class="skill-fade-text">Skills</div>
+
+          <div class="skill-container-left">
+            <h2 class="skill-heading">
+              <span class="caps">M</span>e and
+              <br />
+              MyTech Stack
+            </h2>
+          </div>
+
+          <div class="skill-container-right">
+            <img src="icons/blob vector.png" class="blob-style" alt="" />
+
+            <img src="icons/HTML.png" alt="" class="skills-logo" />
+            <img src="icons/CSS.png" alt="" class="skills-logo" />
+            <img src="icons/Javascript.svg" alt="" class="skills-logo" />
+            <img src="icons/React.png" alt="" class="skills-logo" />
+            <img src="icons/NodeJs.svg" alt="" class="skills-logo" />
+            <img src="icons/Next.svg" alt="" class="skills-logo" />
+            <img src="icons/Redux.svg" alt="" class="skills-logo" />
+            <img src="icons/Tailwind.png" alt="" class="skills-logo" />
+            <img src="icons/Bootstrap.svg" alt="" class="skills-logo" />
+            <img src="icons/MaterialUI.svg" alt="" class="skills-logo" />
+            <img src="icons/Express.png" alt="" class="skills-logo" />
+            <img src="icons/Git.svg" alt="" class="skills-logo" />
+            <img src="icons/Github.svg" alt="" class="skills-logo" />
+            <img src="icons/Graphql.svg" alt="" class="skills-logo" />
+            <img src="icons/MongoDB.svg" alt="" class="skills-logo" />
+            <img src="icons/Vercel.svg" alt="" class="skills-logo" />
+            <img src="icons/ChartJs.svg" alt="" class="skills-logo" />
+            <img src="icons/Bash.svg" alt="" class="skills-logo" />
+            <img src="icons/Docker.svg" alt="" class="skills-logo" />
+            <img src="icons/K8s.svg" alt="" class="skills-logo" />
+          </div>
+        </div>
     </div>
 
-    <!-- Hero Section -->
-    <section class="hero-section container" id="home">
-      <div class="hero-section-left">
-        <h2 class="hero-section-heading">Hello, I'm <span class="role">Hashu</span></h2>
-        <p class="hero-section-sub-heading">Frontend Developer</p>
-        <p class="hero-section-description">
-          I build interactive and responsive websites with a focus on design and functionality.
-        </p>
-        <button class="btn-pink">Hire Me</button>
-      </div>
-      <div class="hero-section-right">
-        <div class="user-image">
-          <img src="icons/user.png" alt="User">
-        </div>
-        <!-- animated icons -->
-        <img src="icons/dots.png" class="absolute icon-dots" alt="dots">
-        <img src="icons/cube.png" class="absolute icon-cube" alt="cube">
-        <img src="icons/circle.png" class="absolute icon-circle" alt="circle">
-        <img src="icons/zigzag.png" class="absolute icon-zigzag" alt="zigzag">
-        <img src="icons/plus.png" class="absolute icon-plus" alt="plus">
-      </div>
-      <div class="faded-text">Portfolio</div>
-    </section>
-
-    <!-- Projects -->
-    <section class="project-section" id="projects">
-      <h2 class="page-header">Projects</h2>
-      <div class="project-container">
-
-        <div class="project-card" id="project1">
-          <div class="project-number project-number-right">01</div>
-          <div class="project-content project-content-left">
-            <h3 class="project-heading">Project One</h3>
-            <p class="project-subHeading">Description of project one.</p>
-          </div>
-        </div>
-
-        <div class="project-card" id="project2">
-          <div class="project-number project-number-left">02</div>
-          <div class="project-content project-content-right">
-            <h3 class="project-heading">Project Two</h3>
-            <p class="project-subHeading">Description of project two.</p>
-          </div>
-        </div>
-
-        <div class="project-card" id="project3">
-          <div class="project-number project-number-right">03</div>
-          <div class="project-content project-content-left">
-            <h3 class="project-heading">Project Three</h3>
-            <p class="project-subHeading">Description of project three.</p>
-          </div>
-        </div>
-
-        <div class="project-card" id="project4">
-          <div class="project-number project-number-left">04</div>
-          <div class="project-content project-content-right">
-            <h3 class="project-heading">Project Four</h3>
-            <p class="project-subHeading">Description of project four.</p>
-          </div>
-        </div>
-
-      </div>
-    </section>
-
-    <!-- Skills -->
-    <section class="skills-container" id="skills">
-      <div class="skill-container-left">
-        <h2 class="skill-heading">My <span class="caps">Skills</span></h2>
-        <div class="skill-subHeading">
-          <p>I have hands-on experience with frontend technologies, design systems and creating responsive web apps.</p>
-        </div>
-      </div>
-      <div class="skill-container-right">
-        <img src="icons/html.png" class="skills-logo" alt="HTML">
-        <img src="icons/css.png" class="skills-logo" alt="CSS">
-        <img src="icons/js.png" class="skills-logo" alt="JavaScript">
-        <img src="icons/react.png" class="skills-logo" alt="React">
-      </div>
-    </section>
-
-  </div>
+  <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+  <script src="https://kit.fontawesome.com/58a810656e.js" crossorigin="anonymous"></script>
+  <script>
+    var typeData = new Typed(".role", {
+      strings: [
+        "Web Developer",
+        "UI-UX Designer",
+        "Frontend Developer",
+        "Coder",
+      ],
+      loop: true,
+      typeSpeed: 100,
+      backSpeed: 80,
+      backDelay: 1000,
+    });
+  </script>
 </body>
 </html>
