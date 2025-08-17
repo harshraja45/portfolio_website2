@@ -37,4 +37,4 @@ Edit
 ---
 
 ## 📸 Screenshots
-![Portfolio Preview](images/check.png)
+![Portfolio Preview](pt.png)
